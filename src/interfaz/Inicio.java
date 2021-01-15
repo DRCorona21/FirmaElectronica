@@ -48,7 +48,7 @@ public class Inicio extends JFrame {
 		butGeneradorClaves.setBounds(116, 51, 207, 23);
 		contentPane.add(butGeneradorClaves);
 		
-		JButton butFirmador = new JButton("Firmador");
+		JButton butFirmador = new JButton("Exportar la firma");
 		butFirmador.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				firmador.setVisible(true);

@@ -66,7 +66,7 @@ public class VentanaPDF extends javax.swing.JFrame {
             }
         });
 
-        Generar.setText("GenerarPDF");
+        Generar.setText("Generar y firmar PDF");
         Generar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 GenerarActionPerformed(evt);
@@ -111,7 +111,7 @@ public class VentanaPDF extends javax.swing.JFrame {
                     .addComponent(Nombre)
                     .addComponent(Boleta)
                     .addComponent(Mensaje, javax.swing.GroupLayout.DEFAULT_SIZE, 405, Short.MAX_VALUE))
-                .addContainerGap(10, Short.MAX_VALUE))
+                .addContainerGap(90, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -259,7 +259,7 @@ public class VentanaPDF extends javax.swing.JFrame {
             Paragraph parrafo3= new Paragraph("Datos personales");
             parrafo.setAlignment(1);
             
-            Paragraph parrafo2 = new Paragraph("T4T980y8yYEA2mANwlL8GLT/VxRGFkUoczjzCSXBvMWeh5UJ4Wm9QjkUYDJpUT      brvLk6/9yA3wC7DpyzECgdK1VmeIsdfU1MBLMacmu8wip4e6gjEStLKpNsmIlFxqgpC2TXZv+rCgj4ts8qtqZe5+y1Iw+7kVzZ4nBY79lO1v0w60bCk/hu3i/p2iA03pFkEKXvALYx5pg7EYF4RVrkIkSGcKRA8IVtMmTQKe1PkpX3aJLcVcvMEIWp2FnglNR4ZJBQMBr6mR3qPWtNKWNP307cjjRtoN35LAUFx7dnOJRVKQAu              X7bIYpO2TcNqJw/OE94sCZCnUE7dTm2pl7zt1g==");
+            Paragraph parrafo2 = new Paragraph("firmaSHAwhitRSA");
             parrafo2.setAlignment(1);
             documento2.add(parrafo3);
             documento2.add(new Paragraph("Nombre: " + Nombre.getText()));

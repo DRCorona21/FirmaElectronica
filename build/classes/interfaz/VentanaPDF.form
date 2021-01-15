@@ -45,7 +45,7 @@
                   <Component id="Boleta" alignment="0" max="32767" attributes="0"/>
                   <Component id="Mensaje" alignment="0" pref="405" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace pref="10" max="32767" attributes="0"/>
+              <EmptySpace pref="90" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -115,7 +115,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="Generar">
       <Properties>
-        <Property name="text" type="java.lang.String" value="GenerarPDF"/>
+        <Property name="text" type="java.lang.String" value="Generar y firmar PDF"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="GenerarActionPerformed"/>

@@ -138,7 +138,7 @@ public class VentanaFirmador extends JFrame implements ActionListener{
 			    try 
 			    {
 					controlador.firmarArchivo(rutaArchivo, rutaFirma, password);
-					JOptionPane.showMessageDialog(this, "Firma generada exitosamente","Respuesta",JOptionPane.INFORMATION_MESSAGE);
+					JOptionPane.showMessageDialog(this, "Firma exportada exitosamente","Respuesta",JOptionPane.INFORMATION_MESSAGE);
 					
 					rutaArchivo = "";
 					txtNombreDocumento.setText("");

@@ -168,12 +168,12 @@ public class VentanaVerificador extends JFrame implements ActionListener {
 				if(respuesta)
 				{
 					
-					JOptionPane.showMessageDialog(this, "La firma es CORRECTA","Respuesta",JOptionPane.INFORMATION_MESSAGE);
+					JOptionPane.showMessageDialog(this, "La firma y el documento son veridicos","Respuesta",JOptionPane.INFORMATION_MESSAGE);
 				}
 				else
 				{
 					
-					JOptionPane.showMessageDialog(this, "La firma es INCORRECTA","Respuesta",JOptionPane.INFORMATION_MESSAGE);
+					JOptionPane.showMessageDialog(this, "La firma no es veridica al documento","Respuesta",JOptionPane.INFORMATION_MESSAGE);
 					
 				}
 			} 
